@@ -198,7 +198,7 @@ var labweek = group3.add("checkbox", undefined, undefined, {name: "labweek"});
     labweek.alignment = ["left","top"]; 
 
 var bridgeday = group3.add("checkbox", undefined, undefined, {name: "bridgeday"}); 
-    bridgeday.text = "Brückentage auffuellen"; 
+    bridgeday.text = "Brueckentage auffuellen"; 
     bridgeday.alignment = ["left","top"]; 
 
 // DIALOG
