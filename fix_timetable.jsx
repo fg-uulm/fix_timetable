@@ -134,7 +134,7 @@ Code for Import https://scriptui.joonas.me — (Triple click to select):
 // DIALOG
 // ======
 var dialog = new Window("dialog"); 
-    dialog.text = "Wochen auffüllen"; 
+    dialog.text = "Wochen auffuellen"; 
     dialog.orientation = "column"; 
     dialog.alignChildren = ["center","top"]; 
     dialog.spacing = 10; 
@@ -149,7 +149,7 @@ var group1 = dialog.add("group", undefined, {name: "group1"});
     group1.margins = 0; 
 
 var statictext1 = group1.add("statictext", undefined, undefined, {name: "statictext1"}); 
-    statictext1.text = "Wieviele Wochen anhängen?"; 
+    statictext1.text = "Wieviele Wochen anhaengen?"; 
     statictext1.alignment = ["left","center"]; 
 
 var addWeeks_array = ["0","1","2","3","4","5"]; 
@@ -194,11 +194,11 @@ var group3 = dialog.add("group", undefined, {name: "group3"});
     group3.margins = 0; 
 
 var labweek = group3.add("checkbox", undefined, undefined, {name: "labweek"}); 
-    labweek.text = "Seminar- / Laborwoche berücksichtigen"; 
+    labweek.text = "Seminar- / Laborwoche beruecksichtigen"; 
     labweek.alignment = ["left","top"]; 
 
 var bridgeday = group3.add("checkbox", undefined, undefined, {name: "bridgeday"}); 
-    bridgeday.text = "Brückentage auffüllen"; 
+    bridgeday.text = "Brückentage auffuellen"; 
     bridgeday.alignment = ["left","top"]; 
 
 // DIALOG
